@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+
+<suite name="ThomasProject"
+	preserve-order="true" verbose="1" parallel="classes" thread-count="2">
+
+
+	<test name="testngprogram">
+
+		<classes>
+			<class name="ThomasProject.ThomasProject.ClearTrip">
+				<methods>
+					<include name="login1" />
+					<include name="login2" />
+					<include name="login3" />
+					<include name="login4"></include>
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+</suite>
+
+ 

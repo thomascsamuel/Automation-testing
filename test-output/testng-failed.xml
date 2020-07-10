@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [ThomasProject]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="testngprogram(failed)">
+    <classes>
+      <class name="ThomasProject.ThomasProject.ClearTrip">
+        <methods>
+          <include name="launchClearTrip"/>
+          <include name="searchHotel"/>
+          <include name="browser"/>
+        </methods>
+      </class> <!-- ThomasProject.ThomasProject.ClearTrip -->
+    </classes>
+  </test> <!-- testngprogram(failed) -->
+</suite> <!-- Failed suite [ThomasProject] -->
