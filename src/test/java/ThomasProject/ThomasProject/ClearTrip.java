@@ -55,6 +55,8 @@ public class ClearTrip {
 					By.xpath("//div[@class='monthBlock first']/table/tbody/tr[4]/td/following::td[@data-handler='selectDay'][1]"))
 					.click();
 			driver.findElement(By.id("SearchHotelsButton")).click();
+			Thread.sleep(5000);
+			driver.quit();
 
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-09T15:22:51Z" name="ThomasProject" finished-at="2020-07-09T15:23:17Z" duration-ms="25210">
+  <suite name="Default suite" duration-ms="38031" started-at="2020-07-13T07:16:00Z" finished-at="2020-07-13T07:16:38Z">
     <groups>
     </groups>
-    <test started-at="2020-07-09T15:22:51Z" name="testngprogram" finished-at="2020-07-09T15:23:17Z" duration-ms="25210">
+    <test name="Default test" duration-ms="38031" started-at="2020-07-13T07:16:00Z" finished-at="2020-07-13T07:16:38Z">
       <class name="ThomasProject.ThomasProject.ClearTrip">
-        <test-method is-config="true" signature="browser()[pri:0, instance:ThomasProject.ThomasProject.ClearTrip@561b6512]" started-at="2020-07-09T20:52:51Z" name="browser" finished-at="2020-07-09T20:52:55Z" duration-ms="3378" status="PASS">
+        <test-method status="PASS" signature="browser()[pri:0, instance:ThomasProject.ThomasProject.ClearTrip@6093dd95]" name="browser" is-config="true" duration-ms="4331" started-at="2020-07-13T12:46:00Z" finished-at="2020-07-13T12:46:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method signature="launchClearTrip()[pri:1, instance:ThomasProject.ThomasProject.ClearTrip@561b6512]" started-at="2020-07-09T20:52:55Z" name="launchClearTrip" finished-at="2020-07-09T20:52:59Z" duration-ms="3767" status="PASS">
+        <test-method status="PASS" signature="launchClearTrip()[pri:1, instance:ThomasProject.ThomasProject.ClearTrip@6093dd95]" name="launchClearTrip" duration-ms="6149" started-at="2020-07-13T12:46:04Z" finished-at="2020-07-13T12:46:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchClearTrip -->
-        <test-method signature="searchHotel()[pri:2, instance:ThomasProject.ThomasProject.ClearTrip@561b6512]" started-at="2020-07-09T20:52:59Z" name="searchHotel" finished-at="2020-07-09T20:53:17Z" duration-ms="18012" status="PASS">
+        <test-method status="PASS" signature="searchHotel()[pri:2, instance:ThomasProject.ThomasProject.ClearTrip@6093dd95]" name="searchHotel" duration-ms="27368" started-at="2020-07-13T12:46:10Z" finished-at="2020-07-13T12:46:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchHotel -->
       </class> <!-- ThomasProject.ThomasProject.ClearTrip -->
-    </test> <!-- testngprogram -->
-  </suite> <!-- ThomasProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

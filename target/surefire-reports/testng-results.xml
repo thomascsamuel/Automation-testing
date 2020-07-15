@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ThomasProject" duration-ms="33000" started-at="2020-07-14T14:34:20Z" finished-at="2020-07-14T14:34:53Z">
+    <groups>
+    </groups>
+    <test name="testngprogram" duration-ms="33000" started-at="2020-07-14T14:34:20Z" finished-at="2020-07-14T14:34:53Z">
+      <class name="ThomasProject.ThomasProject.ClearTrip">
+        <test-method status="PASS" signature="browser()[pri:0, instance:ThomasProject.ThomasProject.ClearTrip@7921b0a2]" name="browser" is-config="true" duration-ms="2206" started-at="2020-07-14T20:04:20Z" finished-at="2020-07-14T20:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="launchClearTrip()[pri:1, instance:ThomasProject.ThomasProject.ClearTrip@7921b0a2]" name="launchClearTrip" duration-ms="3142" started-at="2020-07-14T20:04:22Z" finished-at="2020-07-14T20:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchClearTrip -->
+        <test-method status="PASS" signature="searchHotel()[pri:2, instance:ThomasProject.ThomasProject.ClearTrip@7921b0a2]" name="searchHotel" duration-ms="27608" started-at="2020-07-14T20:04:26Z" finished-at="2020-07-14T20:04:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchHotel -->
+      </class> <!-- ThomasProject.ThomasProject.ClearTrip -->
+    </test> <!-- testngprogram -->
+  </suite> <!-- ThomasProject -->
+</testng-results>
